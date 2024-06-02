@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    position: absolute;
+    background-color: rgba(249, 47, 47, 0.678);
+    animation-name: blink;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    z-index: 10;
+    opacity: .7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section {
+    width: 100%;
+}
+
+section img {
+    width: 100%;
+}
