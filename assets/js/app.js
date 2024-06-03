@@ -1,3 +1,9 @@
+const enter = document.querySelector("#enter");
+
+enter.addEventListener("click", () => {
+    document.querySelector(".overlay").style.display = "none";
+})
+
 
 const styleBoxes = () => {
 
