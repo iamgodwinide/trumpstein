@@ -1,6 +1,9 @@
 const enter = document.querySelector("#enter");
+const audio = document.getElementById("audio");
 
 enter.addEventListener("click", () => {
+    console.log(audio)
+    audio.play();
     document.querySelector(".overlay").style.display = "none";
 })
 
